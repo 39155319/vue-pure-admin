@@ -6,7 +6,7 @@ const resultRouter = {
   component: Layout,
   redirect: "/result/success",
   meta: {
-    icon: "checkbox-circle-line",
+    icon: "uno:ri:checkbox-circle-line",
     title: $t("menus.hsResult"),
     rank: 8
   },

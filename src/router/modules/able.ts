@@ -6,7 +6,7 @@ const ableRouter = {
   component: Layout,
   redirect: "/able/watermark",
   meta: {
-    icon: "ubuntu-fill",
+    icon: "uno:ri:ubuntu-fill",
     title: $t("menus.hsAble"),
     rank: 4
   },

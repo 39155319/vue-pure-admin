@@ -11,8 +11,22 @@ import { IconifyIconOnline, IconifyIconOffline, FontIcon } from "../index";
 export function useRenderIcon(icon: string, attrs?: iconType): Component {
   // iconfont
   const ifReg = /^IF-/;
-  // typeof icon === "function" 属于SVG
-  if (ifReg.test(icon)) {
+
+  // unocss preset-icons
+  const unoReg = /^uno:/;
+
+  if (unoReg.test(icon)) {
+    // https://github.com/unocss/unocss/tree/main/packages/preset-icons
+    return defineComponent({
+      name: "UnoIcon",
+      render() {
+        return h("div", {
+          class: icon,
+          ...attrs
+        });
+      }
+    });
+  } else if (ifReg.test(icon)) {
     // iconfont
     const name = icon.split(ifReg)[1];
     const iconName = name.slice(

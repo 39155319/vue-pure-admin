@@ -6,7 +6,7 @@ const formDesignRouter = {
   component: Layout,
   redirect: "/formDesign/index",
   meta: {
-    icon: "terminal-window-line",
+    icon: "uno:ri:terminal-window-line",
     title: $t("menus.hsFormDesign"),
     rank: 2
   },

@@ -6,7 +6,7 @@ const pptRouter = {
   component: Layout,
   redirect: "/ppt/index",
   meta: {
-    icon: "ppt",
+    icon: "uno:ri:file-ppt-2-line",
     title: "PPT",
     rank: 3
   },

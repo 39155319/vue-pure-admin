@@ -6,7 +6,7 @@ const componentsRouter = {
   component: Layout,
   redirect: "/components/video",
   meta: {
-    icon: "menu",
+    icon: "uno:ep:menu",
     title: $t("menus.hscomponents"),
     rank: 5
   },

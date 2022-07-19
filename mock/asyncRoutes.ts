@@ -6,7 +6,7 @@ const systemRouter = {
   path: "/system",
   redirect: "/system/user/index",
   meta: {
-    icon: "setting",
+    icon: "uno:ep:setting",
     title: "menus.hssysManagement",
     rank: 11
   },
@@ -15,7 +15,7 @@ const systemRouter = {
       path: "/system/user/index",
       name: "User",
       meta: {
-        icon: "flUser",
+        icon: "uno:fluent:person-12-filled",
         title: "menus.hsUser"
       }
     },
@@ -23,7 +23,7 @@ const systemRouter = {
       path: "/system/role/index",
       name: "Role",
       meta: {
-        icon: "role",
+        icon: "uno:fluent:people-swap-28-filled",
         title: "menus.hsRole"
       }
     },
@@ -31,7 +31,7 @@ const systemRouter = {
       path: "/system/dept/index",
       name: "Dept",
       meta: {
-        icon: "dept",
+        icon: "uno:ri:git-branch-line",
         title: "menus.hsDept"
       }
     },
@@ -40,7 +40,7 @@ const systemRouter = {
       component: "/system/dict/index",
       name: "Dict",
       meta: {
-        icon: "dict",
+        icon: "uno:ri:git-repository-line",
         title: "menus.hsDict",
         keepAlive: true
       }
@@ -53,7 +53,7 @@ const permissionRouter = {
   redirect: "/permission/page/index",
   meta: {
     title: "menus.permission",
-    icon: "lollipop",
+    icon: "uno:ep:lollipop",
     rank: 7
   },
   children: [
@@ -79,7 +79,7 @@ const frameRouter = {
   path: "/iframe",
   redirect: "/iframe/pure",
   meta: {
-    icon: "monitor",
+    icon: "uno:ep:monitor",
     title: "menus.hsExternalPage",
     rank: 10
   },

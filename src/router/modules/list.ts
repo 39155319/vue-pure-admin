@@ -6,7 +6,7 @@ const ableRouter = {
   component: Layout,
   redirect: "/list/card",
   meta: {
-    icon: "list-check",
+    icon: "uno:ri:list-check",
     title: $t("menus.hsList"),
     rank: 12
   },
@@ -16,7 +16,7 @@ const ableRouter = {
       name: "ListCard",
       component: () => import("/@/views/list/card/index.vue"),
       meta: {
-        icon: "card",
+        icon: "uno:ri:bank-card-line",
         title: $t("menus.hsListCard"),
         showParent: true
       }

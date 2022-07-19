@@ -6,7 +6,7 @@ const guideRouter = {
   component: Layout,
   redirect: "/guide/index",
   meta: {
-    icon: "guide",
+    icon: "uno:ep:guide",
     title: $t("menus.hsguide"),
     rank: 14
   },

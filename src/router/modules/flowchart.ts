@@ -6,7 +6,7 @@ const flowChartRouter = {
   component: Layout,
   redirect: "/flowChart/index",
   meta: {
-    icon: "set-up",
+    icon: "uno:ep:set-up",
     title: $t("menus.hsflowChart"),
     rank: 1
   },

@@ -7,7 +7,7 @@ const homeRouter = {
   component: Layout,
   redirect: "/welcome",
   meta: {
-    icon: "home-filled",
+    icon: "uno:ep:home-filled",
     title: $t("menus.hshome"),
     rank: 0
   },

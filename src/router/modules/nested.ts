@@ -7,7 +7,7 @@ const nestedRouter = {
   redirect: "/nested/menu1/menu1-1",
   meta: {
     title: $t("menus.hsmenus"),
-    icon: "histogram",
+    icon: "uno:ep:histogram",
     rank: 6
   },
   children: [
